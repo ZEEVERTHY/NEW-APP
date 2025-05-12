@@ -80,7 +80,7 @@ export default function Dashboard({ savedSermons: initialSermons }: DashboardPro
         
         {sermons.length === 0 ? (
           <div className={styles.emptyState}>
-            <p>You haven't created any sermons yet.</p>
+            <p>You havent created any sermons yet.</p>
             <button 
               onClick={() => router.push('/')}
               className={styles.createButton}
